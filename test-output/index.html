@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 15 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\SEBIN V\eclipse-workspace\swaglabsminimvn\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 15 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="alphabetsinpostalcode">alphabetsinpostalcode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="checkoutwithnull">checkoutwithnull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="copypasteinpassword">copypasteinpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="enterkeyvalidation">enterkeyvalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="footerlinknavigationverification">footerlinknavigationverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="loginverification(locked_out_user, secret_sauce)">loginverification(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="loginverification(sevinho, sev221)">loginverification(sevinho, sev221)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="loginverification(anu, anu112)">loginverification(anu, anu112)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="numericinfirstname">numericinfirstname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="numericinlastname">numericinlastname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.product_test" class="method navigator-link" hash-for-method="resetappstate">resetappstate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="specialcharinfirstname">specialcharinfirstname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="specialcharinlastname">specialcharinlastname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="specialcharinpostalcode">specialcharinpostalcode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="whitespaceinwebelements">whitespaceinwebelements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.product_test" class="method navigator-link" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="buttontextverification">buttontextverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="cancelbtnverification">cancelbtnverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="carticonclick">carticonclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="cartremovebtn">cartremovebtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="checkoutnavigation">checkoutnavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="continueshopbutton">continueshopbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.product_test" class="method navigator-link" hash-for-method="dropdownverification">dropdownverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.product_test" class="method navigator-link" hash-for-method="getproductdetails">getproductdetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="loggingout">loggingout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="loginverification(standard_user, secret_sauce)">loginverification(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.product_test" class="method navigator-link" hash-for-method="logoverification">logoverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="logoverification">logoverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="orderplacement">orderplacement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="placeholderverification">placeholderverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.login_test" class="method navigator-link" hash-for-method="titleverification">titleverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testpkg.checkout_test" class="method navigator-link" hash-for-method="validcredcheckout">validcredcheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testpkg.login_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="copypasteinpassword">
+                  </a> <!-- copypasteinpassword -->
+                  <span class="method-name">copypasteinpassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: Password coppied
+	at testpkg.login_test.copypasteinpassword(login_test.java:165)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginverification(locked_out_user, secret_sauce)">
+                  </a> <!-- loginverification(locked_out_user, secret_sauce) -->
+                  <span class="method-name">loginverification</span>
+                  <span class="parameters">(locked_out_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login failed forlocked_out_user
+	at testpkg.login_test.loginverification(login_test.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginverification(sevinho, sev221)">
+                  </a> <!-- loginverification(sevinho, sev221) -->
+                  <span class="method-name">loginverification</span>
+                  <span class="parameters">(sevinho,sev221)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login failed forsevinho
+	at testpkg.login_test.loginverification(login_test.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginverification(anu, anu112)">
+                  </a> <!-- loginverification(anu, anu112) -->
+                  <span class="method-name">loginverification</span>
+                  <span class="parameters">(anu,anu112)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login failed foranu
+	at testpkg.login_test.loginverification(login_test.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testpkg.checkout_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alphabetsinpostalcode">
+                  </a> <!-- alphabetsinpostalcode -->
+                  <span class="method-name">alphabetsinpostalcode</span>
+                  <div class="stack-trace">java.lang.AssertionError: Postal Code Accepts Alphabets
+	at testpkg.checkout_test.alphabetsinpostalcode(checkout_test.java:310)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutwithnull">
+                  </a> <!-- checkoutwithnull -->
+                  <span class="method-name">checkoutwithnull</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.saucedemo.com/cart.html] but found [https://www.saucedemo.com/checkout-step-one.html]
+	at testpkg.checkout_test.checkoutwithnull(checkout_test.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterkeyvalidation">
+                  </a> <!-- enterkeyvalidation -->
+                  <span class="method-name">enterkeyvalidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: Enter key functionality failed
+	at testpkg.checkout_test.enterkeyvalidation(checkout_test.java:391)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="footerlinknavigationverification">
+                  </a> <!-- footerlinknavigationverification -->
+                  <span class="method-name">footerlinknavigationverification</span>
+                  <div class="stack-trace">java.lang.AssertionError: Footer navigation is failed
+	at testpkg.checkout_test.footerlinknavigationverification(checkout_test.java:490)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numericinfirstname">
+                  </a> <!-- numericinfirstname -->
+                  <span class="method-name">numericinfirstname</span>
+                  <div class="stack-trace">java.lang.AssertionError: FirstName accepts numerics
+	at testpkg.checkout_test.numericinfirstname(checkout_test.java:202)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numericinlastname">
+                  </a> <!-- numericinlastname -->
+                  <span class="method-name">numericinlastname</span>
+                  <div class="stack-trace">java.lang.AssertionError: LastName accepts numerics
+	at testpkg.checkout_test.numericinlastname(checkout_test.java:229)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="specialcharinfirstname">
+                  </a> <!-- specialcharinfirstname -->
+                  <span class="method-name">specialcharinfirstname</span>
+                  <div class="stack-trace">java.lang.AssertionError: FirstName accepts Special Character
+	at testpkg.checkout_test.specialcharinfirstname(checkout_test.java:256)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="specialcharinlastname">
+                  </a> <!-- specialcharinlastname -->
+                  <span class="method-name">specialcharinlastname</span>
+                  <div class="stack-trace">java.lang.AssertionError: LastName accepts Special Character
+	at testpkg.checkout_test.specialcharinlastname(checkout_test.java:283)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="specialcharinpostalcode">
+                  </a> <!-- specialcharinpostalcode -->
+                  <span class="method-name">specialcharinpostalcode</span>
+                  <div class="stack-trace">java.lang.AssertionError: Postal Code Accepts Special Character
+	at testpkg.checkout_test.specialcharinpostalcode(checkout_test.java:466)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whitespaceinwebelements">
+                  </a> <!-- whitespaceinwebelements -->
+                  <span class="method-name">whitespaceinwebelements</span>
+                  <div class="stack-trace">java.lang.AssertionError: White space alone is accepting
+	at testpkg.checkout_test.whitespaceinwebelements(checkout_test.java:336)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testpkg.product_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="resetappstate">
+                  </a> <!-- resetappstate -->
+                  <span class="method-name">resetappstate</span>
+                  <div class="stack-trace">java.lang.AssertionError: Failed to reset app
+	at testpkg.product_test.resetappstate(product_test.java:152)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.login_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buttontextverification">
+                  </a> <!-- buttontextverification -->
+                  <span class="method-name">buttontextverification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginverification(standard_user, secret_sauce)">
+                  </a> <!-- loginverification(standard_user, secret_sauce) -->
+                  <span class="method-name">loginverification</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoverification">
+                  </a> <!-- logoverification -->
+                  <span class="method-name">logoverification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeholderverification">
+                  </a> <!-- placeholderverification -->
+                  <span class="method-name">placeholderverification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleverification">
+                  </a> <!-- titleverification -->
+                  <span class="method-name">titleverification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.checkout_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelbtnverification">
+                  </a> <!-- cancelbtnverification -->
+                  <span class="method-name">cancelbtnverification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carticonclick">
+                  </a> <!-- carticonclick -->
+                  <span class="method-name">carticonclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartremovebtn">
+                  </a> <!-- cartremovebtn -->
+                  <span class="method-name">cartremovebtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutnavigation">
+                  </a> <!-- checkoutnavigation -->
+                  <span class="method-name">checkoutnavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continueshopbutton">
+                  </a> <!-- continueshopbutton -->
+                  <span class="method-name">continueshopbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loggingout">
+                  </a> <!-- loggingout -->
+                  <span class="method-name">loggingout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderplacement">
+                  </a> <!-- orderplacement -->
+                  <span class="method-name">orderplacement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validcredcheckout">
+                  </a> <!-- validcredcheckout -->
+                  <span class="method-name">validcredcheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.product_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart">
+                  </a> <!-- addtocart -->
+                  <span class="method-name">addtocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdownverification">
+                  </a> <!-- dropdownverification -->
+                  <span class="method-name">dropdownverification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getproductdetails">
+                  </a> <!-- getproductdetails -->
+                  <span class="method-name">getproductdetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoverification">
+                  </a> <!-- logoverification -->
+                  <span class="method-name">logoverification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SEBIN V\eclipse-workspace\swaglabsminimvn\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testpkg.login_test&quot;/&gt;
+      &lt;class name=&quot;testpkg.product_test&quot;/&gt;
+      &lt;class name=&quot;testpkg.checkout_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addtocart')
+data.setCell(0, 2, 'testpkg.product_test')
+data.setCell(0, 3, 12541);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'resetappstate')
+data.setCell(1, 2, 'testpkg.product_test')
+data.setCell(1, 3, 2409);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loggingout')
+data.setCell(2, 2, 'testpkg.checkout_test')
+data.setCell(2, 3, 2206);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'carticonclick')
+data.setCell(3, 2, 'testpkg.checkout_test')
+data.setCell(3, 3, 2099);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'copypasteinpassword')
+data.setCell(4, 2, 'testpkg.login_test')
+data.setCell(4, 3, 755);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'specialcharinlastname')
+data.setCell(5, 2, 'testpkg.checkout_test')
+data.setCell(5, 3, 573);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'numericinfirstname')
+data.setCell(6, 2, 'testpkg.checkout_test')
+data.setCell(6, 3, 571);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'specialcharinfirstname')
+data.setCell(7, 2, 'testpkg.checkout_test')
+data.setCell(7, 3, 558);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'specialcharinpostalcode')
+data.setCell(8, 2, 'testpkg.checkout_test')
+data.setCell(8, 3, 558);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'enterkeyvalidation')
+data.setCell(9, 2, 'testpkg.checkout_test')
+data.setCell(9, 3, 537);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'numericinlastname')
+data.setCell(10, 2, 'testpkg.checkout_test')
+data.setCell(10, 3, 535);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'alphabetsinpostalcode')
+data.setCell(11, 2, 'testpkg.checkout_test')
+data.setCell(11, 3, 530);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getproductdetails')
+data.setCell(12, 2, 'testpkg.product_test')
+data.setCell(12, 3, 503);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'whitespaceinwebelements')
+data.setCell(13, 2, 'testpkg.checkout_test')
+data.setCell(13, 3, 495);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginverification')
+data.setCell(14, 2, 'testpkg.login_test')
+data.setCell(14, 3, 451);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginverification')
+data.setCell(15, 2, 'testpkg.login_test')
+data.setCell(15, 3, 446);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validcredcheckout')
+data.setCell(16, 2, 'testpkg.checkout_test')
+data.setCell(16, 3, 434);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginverification')
+data.setCell(17, 2, 'testpkg.login_test')
+data.setCell(17, 3, 423);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginverification')
+data.setCell(18, 2, 'testpkg.login_test')
+data.setCell(18, 3, 404);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'dropdownverification')
+data.setCell(19, 2, 'testpkg.product_test')
+data.setCell(19, 3, 291);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkoutnavigation')
+data.setCell(20, 2, 'testpkg.checkout_test')
+data.setCell(20, 3, 234);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkoutwithnull')
+data.setCell(21, 2, 'testpkg.checkout_test')
+data.setCell(21, 3, 229);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'footerlinknavigationverification')
+data.setCell(22, 2, 'testpkg.checkout_test')
+data.setCell(22, 3, 218);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'logoverification')
+data.setCell(23, 2, 'testpkg.login_test')
+data.setCell(23, 3, 108);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'orderplacement')
+data.setCell(24, 2, 'testpkg.checkout_test')
+data.setCell(24, 3, 102);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'cancelbtnverification')
+data.setCell(25, 2, 'testpkg.checkout_test')
+data.setCell(25, 3, 89);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'continueshopbutton')
+data.setCell(26, 2, 'testpkg.checkout_test')
+data.setCell(26, 3, 87);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'placeholderverification')
+data.setCell(27, 2, 'testpkg.login_test')
+data.setCell(27, 3, 47);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'logoverification')
+data.setCell(28, 2, 'testpkg.product_test')
+data.setCell(28, 3, 38);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'buttontextverification')
+data.setCell(29, 2, 'testpkg.login_test')
+data.setCell(29, 3, 35);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'cartremovebtn')
+data.setCell(30, 2, 'testpkg.checkout_test')
+data.setCell(30, 3, 27);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'titleverification')
+data.setCell(31, 2, 'testpkg.login_test')
+data.setCell(31, 3, 10);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpkg.checkout_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">browser_launch</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpkg.product_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">browser_launch</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.login_test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">browser_launch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">logoverification</span>
+                <span class="method-start">128253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleverification</span>
+                <span class="method-start">128375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buttontextverification</span>
+                <span class="method-start">128397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">placeholderverification</span>
+                <span class="method-start">128432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">copypasteinpassword</span>
+                <span class="method-start">128479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginverification(anu, anu112)</span>
+                <span class="method-start">130596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginverification(sevinho, sev221)</span>
+                <span class="method-start">131047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginverification(locked_out_user, secret_sauce)</span>
+                <span class="method-start">131493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginverification(standard_user, secret_sauce)</span>
+                <span class="method-start">131925 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.product_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logoverification</span>
+                <span class="method-start">132331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dropdownverification</span>
+                <span class="method-start">132377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addtocart</span>
+                <span class="method-start">132668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getproductdetails</span>
+                <span class="method-start">145214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">resetappstate</span>
+                <span class="method-start">145717 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.checkout_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">carticonclick</span>
+                <span class="method-start">148130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cartremovebtn</span>
+                <span class="method-start">150240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkoutwithnull</span>
+                <span class="method-start">150274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cancelbtnverification</span>
+                <span class="method-start">150505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">continueshopbutton</span>
+                <span class="method-start">150594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutnavigation</span>
+                <span class="method-start">150681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">numericinfirstname</span>
+                <span class="method-start">150923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">numericinlastname</span>
+                <span class="method-start">151496 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">specialcharinfirstname</span>
+                <span class="method-start">152036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">specialcharinlastname</span>
+                <span class="method-start">152594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">alphabetsinpostalcode</span>
+                <span class="method-start">153169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">specialcharinpostalcode</span>
+                <span class="method-start">153703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">whitespaceinwebelements</span>
+                <span class="method-start">154261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enterkeyvalidation</span>
+                <span class="method-start">154761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validcredcheckout</span>
+                <span class="method-start">155301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">footerlinknavigationverification</span>
+                <span class="method-start">155738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">orderplacement</span>
+                <span class="method-start">155956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loggingout</span>
+                <span class="method-start">156058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.login_test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">end</span>
+                <span class="method-start">158351 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
